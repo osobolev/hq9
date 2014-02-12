@@ -118,7 +118,6 @@ int parse()
     char ch = *ptr++;
     if (ch == 0)
       break;
-    RefPtr ref;
     if (ch == 'h' || ch == 'H') {
       outputPrint(helloWorld());
     } else if (ch == 'q' || ch == 'Q') {
